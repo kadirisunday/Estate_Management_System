@@ -1,0 +1,75 @@
+body{
+  background: linear-gradient(#0d0436 50%, white 50%);
+}
+.container__form{
+  margin-top:200px;
+}
+.homeicon{
+  width: 125px;
+  height: 125px;
+  margin: 30px auto 0px; 
+}
+.imagehome{
+  margin-left: 40%;
+  margin-bottom: -165px;
+  margin-top: 40px;
+}
+.header1{
+	width: inherit;
+	margin: 30px auto 0px;
+	background: white;
+	text-align: center;
+	border: 2px solid;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+	font-family: serif;
+}
+
+.form{
+	width: inherit;
+	margin: 0px auto;
+	padding: 20px;
+  border:2px solid ; 
+  /* border-top: none; */
+	background:white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.form__input{
+  border-color: #0d0436;
+}
+
+#logintext{
+	font-family: serif;
+	color: #495057;
+	font-weight: bold;
+}
+
+
+.submit{
+	padding-top: 20px;
+  text-align:center;
+   margin-top: -42px;
+}
+
+#sell{
+	border-radius: 70px;
+	padding: 7px;
+	background:#0d0436;
+	border:2px solid 0d0436;
+	color: white;
+	cursor: pointer;
+  width:80%;
+}
+
+#sell:hover{
+	background:#346290;
+	transition: all 0.30s;
+	border:#346290;
+}
+#form__reg{
+  font-family: Georgia;
+  text-align:center;
+  padding-top: 20px;
+}
