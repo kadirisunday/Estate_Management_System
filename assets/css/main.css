@@ -1,5 +1,8 @@
 body{
-  background: linear-gradient(#0d0436 50%, white 50%);
+	/* background: linear-gradient(#0d0436 50%, white 50%); */
+	background: #eee;
+	/* margin: 0 5px; */
+	max-width: 1350px;
 }
 .container__form{
   margin-top:200px;
@@ -72,4 +75,56 @@ body{
   font-family: Georgia;
   text-align:center;
   padding-top: 20px;
+}
+/* ************Registration begins****************** */
+div.residence{
+	margin-left:35px;
+}
+div.cover{
+	background: grey;
+}
+div.Top-header{
+	background: rgb(10, 66, 112);
+	height: 60px;
+	/* display: flex; */
+}
+div.logo{
+	padding: 0px 0 0 100px;
+    padding-top: 15px;
+}
+div.menu{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	padding-right: 70px;
+}
+span#logo{
+	font-size: 28px;
+	color: white;
+	background: aqua;
+}
+a.nav-link.link__Top__header{
+	color: white;
+}
+div.content{
+	margin-top: 100px;
+}
+div.register{
+	background: rgb(10, 66, 112);
+	margin-bottom: 150px;
+}
+h4#register{
+	margin: 20px ;
+	text-align: center;
+	color: white;
+}
+div.form-group.row.email{
+	margin-top: 10px;
+}
+p.account{
+	color: white;
+}
+p.account>a:hover{
+	color: turquoise;
+	text-decoration: none;
 }
