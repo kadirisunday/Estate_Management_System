@@ -1,6 +1,6 @@
 body{
 	/* background: linear-gradient(#0d0436 50%, white 50%); */
-	background: #eee;
+	/* background: #eee; */
 	/* margin: 0 5px; */
 	max-width: 1350px;
 }
@@ -77,8 +77,8 @@ body{
   padding-top: 20px;
 }
 /* ************Registration begins****************** */
-div.residence{
-	margin-left:35px;
+div.col-6.residence{
+	margin-left:55px;
 }
 div.cover{
 	background: grey;
@@ -90,7 +90,7 @@ div.Top-header{
 }
 div.logo{
 	padding: 0px 0 0 100px;
-    padding-top: 15px;
+  padding-top: 15px;
 }
 div.menu{
 	position: absolute;
@@ -101,7 +101,7 @@ div.menu{
 span#logo{
 	font-size: 28px;
 	color: white;
-	background: aqua;
+	/* background: aqua; */
 }
 a.nav-link.link__Top__header{
 	color: white;
@@ -127,4 +127,28 @@ p.account{
 p.account>a:hover{
 	color: turquoise;
 	text-decoration: none;
+}
+/* ****landing page her */
+.banner__image{
+	width: 1350px;
+	height: 500px;
+}
+div.search{
+	margin: -550px 0 0 600px;
+}
+div.search2{
+	margin: -450px 0 0 400px;
+}
+h3.work{
+	text-align: center;
+	text-transform: capitalize;
+	padding-bottom: 50px;
+}
+.card-img-top{
+	width: 100px;
+	height: 100px;
+	margin-left: 80px;
+}
+div.Browse{
+	margin: 40px 0 0 500px;
 }
